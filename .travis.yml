@@ -10,7 +10,7 @@ install:
   - npm ci
 
 script:
-  - npm run test:coveralls
+  - test:coveralls_linux
 
 notifications:
   email: false
