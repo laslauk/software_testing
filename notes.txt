@@ -1,0 +1,5 @@
+add: pitäisikö testata string + numero palauttaisi undefined, vai pitääkö vain mitä function kuvaus kertoo ja sen mukaan, mitä edes ?? 
+    - nyt palauttaa stringing missä appended, onko ok numeroiden kanssa??
+
+
+camelCase: nyt tulee eteen tyhjä rivi, huijausta! ei sanottu että palauttaisi tyhjän riven sanan eteen >:()

@@ -1,4 +1,4 @@
-const eq = require('./src/eq');
+import eq from '../src/eq'
 
 const object1 = { 'a': 1 }
 const object2 = { 'a': 1 }
