@@ -3,7 +3,7 @@ sudo: false
 language: javascript
 
 node_js:
-  - node_js
+  - node
 
 script:
   - npm run test:coveralls
