@@ -10,3 +10,6 @@ The producers can leave
 some fields blank 
 
 - consider app requirements jotenki :s
+
+
+- integration testit????? voi juku

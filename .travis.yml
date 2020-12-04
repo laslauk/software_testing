@@ -9,8 +9,8 @@ before_install:
 install:
   - npm ci
 
-script:
-  - npm run test:coverallslinux
+
+script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 
 notifications:
   email: false

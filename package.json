@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test:coverallswin": "jest",
-    "test:coverallslinux": "jest --coverage && more  ./tests/coverage/lcov.info | coveralls"
+    "test:coverallslinux": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "author": "",
   "license": "MIT",
