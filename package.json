@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test:coveralls_win": "jest",
-    "test:coveralls_linux": "jest --coverage && coveralls < coverage/lcov.info"
+    "test:coverallswin": "jest",
+    "test:coverallslinux": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "author": "",
   "license": "MIT",
