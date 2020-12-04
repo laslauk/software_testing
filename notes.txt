@@ -3,3 +3,10 @@ add: pitäisikö testata string + numero palauttaisi undefined, vai pitääkö v
 
 
 camelCase: nyt tulee eteen tyhjä rivi, huijausta! ei sanottu että palauttaisi tyhjän riven sanan eteen >:()
+
+
+The food producers can add their products via a previously created portal. 
+The producers can leave 
+some fields blank 
+
+- consider app requirements jotenki :s
