@@ -10,8 +10,6 @@ install:
   - npm install
 
 script:
-  - npm run test
-after_script:
   - npm run cover
 
 notifications:
