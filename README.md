@@ -1,3 +1,8 @@
+
+# jee coverage
+
+[![Coverage Status](https://coveralls.io/repos/github/laslauk/software_testing/badge.svg)](https://coveralls.io/github/laslauk/software_testing)
+
 # Student template
 
 ## Purpose of this repository
