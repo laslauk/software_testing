@@ -4,9 +4,10 @@
   "description": "This is a project work for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
   "type": "module",
+  
   "scripts": {
     "test": "jest",
-    "cover": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "cover": "jest --coverage --collectCoverageFrom=src/*.js --collectCoverageFrom='!src/.internal/*.js' --coverageReporters=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",

@@ -1,9 +1,14 @@
 import words from '../src/words'
 
 
-test('Enter an array with special makrs:', () => {
+test('Enter an array with special marks:', () => {
     expect(words("keijo, nakit, kioski, alennus -  % juustohamppareista !! vau %?? ok"))
     .toStrictEqual(["keijo", "nakit","kioski", "alennus","juustohamppareista", "vau", "ok"]);
+})
+
+test('Enter an empty string', () => {
+    expect(words(""))
+    .toStrictEqual([]);
 })
 
 
