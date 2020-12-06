@@ -1,5 +1,5 @@
 
-# jee coverage
+# Test coverage (Coveralls)
 
 [![Coverage Status](https://coveralls.io/repos/github/laslauk/software_testing/badge.svg)](https://coveralls.io/github/laslauk/software_testing)
 
