@@ -13,6 +13,11 @@ test('add string + number to be type of a number', () => {
     expect(add(typeof("60" + 5))).toBe('number');
 })
 
+// Mitä mieltä oot, pitäiskö tän feilata, jos sille antaa vaan yhden parametrin?
+test('add function with only one parameter 5', () => {
+    expect(add(5)).toBe(5);
+})
+
 test('add 0 and 0 to be 0', () => {
     expect(add(0,0)).toBe(0);
 })

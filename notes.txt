@@ -1,21 +1,33 @@
 add: pitäisikö testata string + numero palauttaisi undefined, vai pitääkö vain mitä function kuvaus kertoo ja sen mukaan, mitä edes ?? 
     - nyt palauttaa stringing missä appended, onko ok numeroiden kanssa??
+    ++ mun mielestä sen function pitäis palauttaa joku undefined, koska se parametri ei oo oikeeta tyyppiä.
+    ++ ja jos se pystyis käsittelemään string-numeroita numeroina niin se olis vaan plussaa, mutta ei mun mielestä
+    ++ sellanen mitä vois olettaa
 
+add: Mitä mieltä oot, pitäiskö ton funktion feilata, jos sille antaa vaan yhden parametrin? Nyt se menee ongelmitta läpi
+    ja kohtelee puuttuvaa arvoa nollana
 
 camelCase: nyt tulee eteen tyhjä rivi, huijausta! ei sanottu että palauttaisi tyhjän riven sanan eteen >:()
+    ++ siinä oli ainakin selvä error. Hyvä että löyty!
 
+filter: tyhjän taulukon palautus. Jos ei ole tuloksia, palauttaa taulukon, jonka sisällä on taulukko
+
+integration_tests/drop.test.js: pitäiskö tän mennä edes läpi/mikä on sopiva virheilmoitus? Se ei selvästikään
+                                kaipaa toInteger:iä mihinkään. Mikä on oikea tapa funktiolle ilmoittaa virhe?
 
 The food producers can add their products via a previously created portal. 
 The producers can leave 
 some fields blank 
 
 - consider app requirements jotenki :s
-
+++ miten?? Mysteeri :D
 
 - integration testit????? voi juku
 
 - onko integration testit noita testejä vain missä testataan muita funktioita mitkä kutsuu muita funktioita?? vai pitääkö
 rakentaa joku oma systeemi
+++ ekana tulee mieleen et se olis toi et testaa niitä funktioita, jotka kutsuu muita funktioita ja miten se toimii, jos joku
+++ niistä kutsutuista funtioista palauttaa vääriä arvoja
 
 The library is meant to be used in a front end application built with React. React promotes functional programming and composition over inheritance.
 
@@ -34,3 +46,5 @@ The food producers can add their products via a previously created portal.
  upper-case letter and that prices are shown with two decimal accuracy.
 
  --> front käyttää näitä funktioita niiden tekemiseen joten testataan että ne ainakin toimii
+ --> filter todennäköisesti käytössä shoppingCartissa ja/tai haussa
+ --> isEmpty käytössä syötekenttien tarkistuksessa (ja miksei myös shoppingCartissa)
