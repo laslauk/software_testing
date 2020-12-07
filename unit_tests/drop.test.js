@@ -11,10 +11,6 @@ test('test drop with more elements than in array', () => {
     expect(drop(numbers, 100000)).toStrictEqual([]);
 })
 
-test('test drop with null amount elements', () => {
-    expect(drop(numbers, null)).toStrictEqual(defaultResult);
-})
-
-test('test drop with undefined amount of elements', () => {
+test('test drop with outside array index', () => {
     expect(drop(numbers, undefined)).toStrictEqual(defaultResult);
 })
