@@ -24,14 +24,13 @@ test('test filter to find all correct values', () => {
 // eikä taulukkoa taulukon sisällä [ Array[] ]. Sieltä tulee ilmeisesti
 // not-arvoja taulukossa, jos ei oo mitään mitä palauttaa
 test('test filter to search value not included into array', () => {
-    expect(filter(shoppingCart, ({ item }) => item == 'soya')).toEqual([]);
+    expect(filter(shoppingCart, ({ item }) => item == 'soya')).toStrictEqual([]);
 })
 
 test('test filter with empty condition', () => {
-    console.log(filter(shoppingCart, {}));
     expect(filter(shoppingCart, {})).toStrictEqual([]);
 })
 
 test('test filter to find value from empty array', () => {
-    expect(filter([], ({ item }) => item == 'tomato')).toBe([]);
+    expect(filter([], ({ item }) => item == 'tomato')).toStrictEqual([]);
 })
