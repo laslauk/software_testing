@@ -10,7 +10,7 @@ test('Add -5 + -1 to be equal of -6', () => {
 
 // Tässä vähän villimpi testi hajottamaan? onko ok
 test('add string + number to be type of a number', () => {
-    expect(add(typeof("60" + 5))).toBe('number');
+    expect(typeof(add("60" + 5))).toBe('number');
 })
 
 // Mitä mieltä oot, pitäiskö tän feilata, jos sille antaa vaan yhden parametrin?
