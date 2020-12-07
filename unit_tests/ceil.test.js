@@ -20,3 +20,7 @@ test('test 105 to be 105 with 0 precision', () => {
 test('test 0.000000000001 to be 1 with 0 precision', () => {
     expect(createRound(0.00000000001 ,0)).toBe(1);
 });
+
+test('test -5.1928 to be -5.192 with 2 precision', () => {
+    expect(createRound(-5.1928, 2)).toBe(-5.19);
+});

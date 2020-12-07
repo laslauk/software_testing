@@ -28,6 +28,7 @@ some fields blank
 rakentaa joku oma systeemi
 ++ ekana tulee mieleen et se olis toi et testaa niitä funktioita, jotka kutsuu muita funktioita ja miten se toimii, jos joku
 ++ niistä kutsutuista funtioista palauttaa vääriä arvoja
+++ toteutin nyt ainakin yhden mock-version et jos ne alafunktiot ei toimikaan oikein niin kattoo et mitä sit tapahtuu
 
 The library is meant to be used in a front end application built with React. React promotes functional programming and composition over inheritance.
 

@@ -12,9 +12,8 @@ test('Enter all numbers strings', () => {
     expect(camelCase("1234")).toBe("1234");
 })
 
-
-test('Enter all numbers strings', () => {
-    expect(camelCase("1234")).toBe("1234");
+test('Enter numbers only', () => {
+    expect(camelCase(1234)).toBe("1234");
 })
 
 test('Test Foo Bar', () => {
@@ -28,4 +27,12 @@ test('Test with special marks', () => {
 
 test('Enter all capital', () => {
     expect(camelCase("KALLEN AUTOKAUPPA")).toBe("kallenAutokauppa");
+})
+
+test('Without input', () => {
+    expect(camelCase()).toBe();
+})
+
+test('Null as an input', () => {
+    expect(camelCase(null)).toBe();
 })

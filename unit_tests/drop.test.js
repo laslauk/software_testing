@@ -11,9 +11,7 @@ test('test drop with outside array index', () => {
     expect(drop(numbers, 100000)).toStrictEqual([]);
 })
 
-// null is not a number so function should use the default value 1
-// now it reads null to be 0
-test('test drop with ', () => {
+test('test drop with null index', () => {
     expect(drop(numbers, null)).toStrictEqual(defaultResult);
 })
 
