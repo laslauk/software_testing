@@ -11,10 +11,6 @@ test('test drop with outside array index', () => {
     expect(drop(numbers, 100000)).toStrictEqual([]);
 })
 
-test('test drop with null index', () => {
-    expect(drop(numbers, null)).toStrictEqual(defaultResult);
-})
-
 test('test drop with outside array index', () => {
     expect(drop(numbers, undefined)).toStrictEqual(defaultResult);
 })
